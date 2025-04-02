@@ -1,3 +1,5 @@
+-- DDL Criação de tabela
+
 CREATE DATABASE IF NOT EXISTS dbpesquisa;
 USE dbpesquisa;
 

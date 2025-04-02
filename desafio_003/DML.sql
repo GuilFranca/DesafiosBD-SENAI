@@ -1,3 +1,6 @@
+-- DML Inserir e Deletar
+
+-- Inserindo
 INSERT INTO ruidos (nivel, horario) VALUES
 (85, '12:24'),
 (92, '12:45'),
@@ -15,3 +18,6 @@ INSERT INTO ruidos (nivel, horario) VALUES
 (125, '17:00'),
 (127, '17:15'),
 (112, '17:30');
+
+-- Deletando
+DELETE FROM ruidos WHERE id = 5;
