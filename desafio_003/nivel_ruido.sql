@@ -4,6 +4,7 @@ CREATE DATABASE IF NOT EXISTS dbpesquisa;
 
 USE dbpesquisa;
 
+-- DDL Criação de tabelas
 CREATE TABLE IF NOT EXISTS ruidos (
     id INT PRIMARY KEY AUTO_INCREMENT,
     nivel INT NOT NULL,
